@@ -9,7 +9,6 @@ class Module extends BaseModule
   const API_URL = 'https://graph.facebook.com';
 
   public $pageID = 0;
-  public $scope = [];
   public $accessToken = '';
 
   public function request($method, $type = 'GET', $params = [], $accessToken = false)
