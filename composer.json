@@ -19,6 +19,9 @@
             "email": "madurmanov@gmail.com"
         }
     ],
+    "require": {
+        "facebook/graph-sdk": "*"
+    },
     "autoload": {
         "psr-4": {
             "madurmanov\\FacebookApiDriver\\": ""
